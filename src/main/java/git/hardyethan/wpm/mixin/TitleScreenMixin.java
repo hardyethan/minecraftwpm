@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class TitleScreenMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		WPM.LOGGER.info("This line is printed by an example mod mixin!");
+		WPM.LOGGER.info("> hello world (100 WPM)");
 	}
 }
