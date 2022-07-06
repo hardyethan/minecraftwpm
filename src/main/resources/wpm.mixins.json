@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "TitleScreenMixin"
+    "ChatScreenMixin",
+    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
