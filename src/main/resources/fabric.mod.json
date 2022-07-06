@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "wpm",
+  "version": "${version}",
+
+  "name": "Minecraft Chat WPM",
+  "description": "Shows words per minute meter when typing in chat.",
+  "authors": [
+    "Ethan Hardy (hardyethan)"
+  ],
+  "icon": "assets/wpm/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "git.hardyethan.wpm.WPM"
+    ]
+  },
+  "mixins": [
+    "wpm.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
